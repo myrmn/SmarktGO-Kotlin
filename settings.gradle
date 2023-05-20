@@ -1,5 +1,6 @@
 pluginManagement {
     repositories {
+        maven { url 'https://mapbox.bintray.com/mapbox' }
         gradlePluginPortal()
         google()
         mavenCentral()
@@ -8,6 +9,16 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials {
+                username = "mapbox"
+                password ="sk.eyJ1IjoibWlzbGVtIiwiYSI6ImNsYWxyNnZ3cTA4NW8zb2xiZml5YjFhajMifQ.uh7xIT1J0MPf1CGdn5fqhg"
+            }
+        }
         google()
         mavenCentral()
     }

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/supermarketImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="10dp"
+        android:src="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/supermarketName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="110dp"
+        android:paddingHorizontal="8dp"
+        android:text="Name"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowRadius="12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/supermarketName"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_baseline_location_on_24">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/supermarketAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:paddingHorizontal="8dp"
+
+        android:text="address  "
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowRadius="12"
+        app:layout_constraintStart_toEndOf="@id/marker"
+        app:layout_constraintTop_toTopOf="@id/marker"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

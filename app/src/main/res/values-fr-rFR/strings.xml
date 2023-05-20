@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smarkt Go</string>
+    <string name="mustNotBeEmpty">Field must not be empty!</string>
+
+
+    <string name="home">Accueil</string>
+    <string name="cart">Panier</string>
+    <string name="favorites">Favoris</string>
+    <string name="profile">Profil</string>
+
+    <string name="welcome">Bienvenue!</string>
+    <string name="settings">Paramètres</string>
+
+    <string name="supermarket">Supermarché</string>
+    <string name="supermarkets">Supermarchés</string>
+    <string name="cart_group">Groupe</string>
+    <string name="empty_cart">Panier vide</string>
+    <string name="no_items">Pas d articles</string>
+    <string name="quote">Cherchez pas plus loin! Nous avons tout pour vous</string>
+    <string name="otp_verification">Vérification d OTP</string>
+    <string name="required">Obligatoire*</string>
+    <string name="verify">Vérifier</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="or">Ou</string>
+    <string name="description">Description</string>
+    <string name="categories">Catégories</string>
+    <string name="ticket">Ticket</string>
+    <string name="a_6_digit_code">un code à 6 chiffres</string>
+    <string name="scan">Scanner</string>
+    <string name="your_wallet">Votre porte monnaie:</string>
+    <string name="total">Total</string>
+    <string name="pay">Payer</string>
+    <string name="no_favorites">Pas de favoris</string>
+    <string name="nearest_supermarkets">Supermarchés les plus proches</string>
+    <string name="see_all">Voir tout</string>
+    <string name="see_more">Voir plus</string>
+    <string name="edit">Éditer</string>
+    <string name="add_to_cart">Ajouter</string>
+    <string name="added_to_cart">Ajouté au panier</string>
+    <string name="already_have_orders">Vous avez déjà des commandes d un autre supermarché!</string>
+    <string name="wallet">Porte monnaie</string>
+    <string name="log_out">Se déconnecter</string>
+    <string name="fruits">Fruits</string>
+    <string name="vegetables">Légumes</string>
+    <string name="dairy_products"> Produits Laitiers</string>
+    <string name="baby_food"> Nourriture pour bébés</string>
+    <string name="languages">Langues</string>
+    <string name="english">🇺🇸 Anglais</string>
+    <string name="french">🇫🇷 Français</string>
+
+    <string name="type_the_ticket_code">Tapez le code du ticket!</string>
+    <string name="type_a_valid_code">Tapez un code valide!</string>
+    <string name="invalid_ticket">Ticket non valide!</string>
+    <string name="ticket_not_found">Ticket introuvable!</string>
+
+    <string name="type_the_otp">Tapez l OTP!</string>
+    <string name="type_a_digit_6_code">Tapez un code à 6 chiffres!</string>
+    <string name="invalid_otp">OTP non valide!</string>
+
+    <string name="type_your_phone_number">Tapez votre numéro de téléphone!</string>
+    <string name="type_a_valid_phone_number">Tapez un numéro de téléphone valide!</string>
+
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+    <string name="please_wait">Veuillez patienter!</string>
+    <string name="preparing_image">Traitement de l image </string>
+    <string name="recognizing_text">Recupération du texte en cours</string>
+    <string name="recognizing_failed"> Echec de la récuperation </string>
+    <string name="preparing_failed">Echec de traitement de l image</string>
+    <string name="selection_failed">Veuillez selectionner une image!</string>
+    <string name="camera_required">Permission du caméra requise!</string>
+    <string name="storage_required">Permission du stockage requise!</string>
+
+    <string name="chat">Chat</string>
+    <string name="member_added">Membre ajouté</string>
+
+    <string name="contact">Contact</string>
+    <string name="score">Score</string>
+    <string name="submit">Soumettre</string>
+    <string name="reviewdescription">Description</string>
+    <string name="reviewtitle">Titre</string>
+    <string name="review">Votre avis</string>
+    <string name="noreview">Pas d avis! Ajoutez le votre</string>
+
+
+    <string name="mapbox_access_token">pk.eyJ1IjoibWlzbGVtIiwiYSI6ImNsYWxvc3p4NTA3ZW4zcXQ3djAyN2ppcGMifQ.JCoW7G8Ona4ivtAJVeJjmQ</string>
+</resources>

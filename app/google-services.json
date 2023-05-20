@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "357498047821",
+    "project_id": "smarkt-go",
+    "storage_bucket": "smarkt-go.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357498047821:android:4876e788aa17f12cedbb04",
+        "android_client_info": {
+          "package_name": "com.esprit.smarktgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357498047821-cpn5nu9ajbibf9u8aosohumpiivc9qjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxnz3-0fPHZBsrgAyId8SC1QXM4hhophc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357498047821-cpn5nu9ajbibf9u8aosohumpiivc9qjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

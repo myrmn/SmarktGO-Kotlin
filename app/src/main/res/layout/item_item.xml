@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imageCardView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="8dp"
+        android:elevation="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@color/white"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@id/imageCardView"
+        app:layout_constraintTop_toTopOf="@id/imageCardView"/>
+
+    <TextView
+        android:id="@+id/itemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="test"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@id/imageCardView"
+        app:layout_constraintTop_toBottomOf="@id/itemName"/>
+
+    <TextView
+        android:id="@+id/itemQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="test"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@id/imageCardView"
+        app:layout_constraintTop_toBottomOf="@id/itemPrice"
+        android:visibility="invisible"/>
+
+
+    <TextView
+        android:id="@+id/itemDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="test"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageCardView"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/iconCardView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:elevation="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        app:cardBackgroundColor="@color/green"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageCardView">
+
+        <ImageView
+            android:id="@+id/addIcon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toStartOf="@id/favorite"
+            app:layout_constraintTop_toTopOf="@id/descriptionTV"
+            android:src="@drawable/ic_baseline_add_24">
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/itemDescription"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="20dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
